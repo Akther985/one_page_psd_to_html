@@ -1,0 +1,41 @@
+
+html,body {
+	padding:  0;
+	margin: 0;
+}
+.container {
+	max-width: 932px;
+	margin: 0 auto;
+}
+
+header {
+	display:  flex;
+	justify-content: space-between;
+}
+.hero_area {
+	background-image:url(../images/header_bg.jpg);
+	height:820px;
+	background-size:  cover;
+	background-repeat:  no-repeat;
+}
+
+.header_menu {
+	font-family: 'Lato', sans-serif;
+}
+.header_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style:  none;
+}
+.header_menu ul li {
+	display: inline-block;
+	padding-right: 50px;
+}
+.header_menu ul li:last-child {
+	padding-right: 0;
+}
+
+.header_menu ul li a {
+	color: #fefeff;
+	font-size: 12px;
+}
